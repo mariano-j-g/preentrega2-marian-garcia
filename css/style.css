@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* pagina inicial */
+.nav-bar {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  height: 1rem;
+}
+
+li {
+  margin: 1rem;
+}
+/* mio */
+
+.logo {
+  width: 13%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgba(29, 29, 180, 0.314);
+  padding: 0.5rem 0;
+}
+
+#seccion-principal {
+  background-image: url(../imgs/universo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagenuniverso {
+  padding-right: 50rem;
+}
+#nav_list {
+  color: white;
+}
+#seccion-secundaria {
+  background-color: rgb(3, 3, 3);
+  font-size: 100%;
+  font-family: cursive;
+  background-image: url(../imgs/abducido2.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50rem;
+}
+.titulosecundario {
+  font-style: oblique;
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+
+#seccionsecundaria {
+  color: white;
+
+  padding-right: 50rem;
+}
+footer {
+  background-color: blueviolet;
+  color: white;
+  padding-top: 2rem;
+}
+#secciondestino {
+  background-color: rgba(50, 111, 210, 0.823);
+}
+#destino {
+  background-color: blue;
+}
+
+/* pagino contacto */
+#mapa {
+  background-position: center;
+}
+.mapa {
+  text-align: center;
+}
+/* pagina contactanos */
+
+#formu {
+  margin-left: 50px;
+}
+
+.marco {
+  margin: 0 auto;
+  border: 1px solid #c0c0c0;
+  width: 600px;
+  background-color: white;
+}
+
+.area {
+  margin: 1rem;
+  padding: 9rem;
+}
+
+.mensaje {
+  width: 100%;
+  margin: 2%;
+  text-align: center;
+  padding: 1.5%;
+  text-decoration: underline;
+}
+
+.cont {
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem;
+  box-sizing: border-box 1;
+  text-decoration: underline;
+}
+
+.men {
+  padding: 7rem;
+  margin: 9rem;
+}
+
+.ser {
+  padding: 0.5rem;
+}
+
+.desig {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.ter {
+  padding: 1%;
+}
+
+.nter {
+  padding: 1%;
+}
+
+.termycon {
+  padding: 1%;
+}
+
+.box {
+  padding: 1%;
+}
+
+.sub {
+  padding: 3%;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* clase de flex */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+/* flex en barra de navegacion de pagina destinos */
+.list-item {
+  margin-left: 1.5rem;
+}
+/* cambio en la primer seccion de la pagina destinos */
+.dest {
+  padding-top: 8rem;
+}
+
+.d2 {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 2.5rem 6rem 1rem 0;
+}
+
+.d1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1.2rem 8rem 1.5rem 0;
+}
+
+.selector {
+  padding-top: 5rem;
+}
+
+.clases-select {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.lista-foot {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.footer-ft-iconos {
+  text-align: center;
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+.footicon {
+  text-align: center;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.follow {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-left: 5rem;
+}
