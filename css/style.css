@@ -8,6 +8,11 @@ img {
   max-width: 100%;
 }
 
+/* seccion parrafos */
+.dejate {
+  font-family: rubik dirt;
+}
+
 /* barra de navegacion */
 .navbar {
   padding: 2rem;
